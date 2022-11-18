@@ -18,7 +18,7 @@ p {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #CCCCCC;
-    margin: 30px 150px 0;
+    margin: 70px 150px 0;
     font-size: 25px;
 }
 h1{
@@ -96,6 +96,10 @@ hr {
     margin: 10px 0 25px;
     letter-spacing: 1px;
 }
+.serial-info a{
+    text-decoration: none;
+    color: #C0C0C0;
+}
 .serial-review{
     font-size: 35px;
     text-align: end;
@@ -124,6 +128,7 @@ hr {
 footer {
     width: 100%;
     height: 150px;
+    padding: 20px;
     background-color: #1C1C1C;
     font-family: 'Bungee Inline', cursive;
     color: #CCCCCC;
@@ -141,4 +146,73 @@ footer {
 .shadow-effect-text:hover {
     box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease;
+}
+
+@media (max-width: 1000px) {
+    .serial-info {
+        font-size: 15px;
+        margin: 5px 0 15px;
+    }
+}
+@media (max-width: 1000px) {
+    .box-serial img {
+        width: 250px;
+    }
+}
+@media (max-width: 1000px) {
+    .serial-review {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1000px) {
+    .serial-tittle {
+        font-size: 30px;
+        margin: 10px 0 10px;
+    }
+}
+@media (max-width: 1000px) {
+    .features-block img {
+        width: 180px;
+    }
+}
+
+table {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #C0C0C0;
+    font-weight: 700;
+    margin: 30px 0 5px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+tr p {
+    margin: 10px 5px 10px;
+}
+th p {
+    font-size: 35px;
+}
+tbody tr:nth-child(2n+1) {
+    background-color:  #B5B8B1;
+}
+tbody tr:nth-child(2n+2){
+    background-color: #333333;
+}
+
+.season-text {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #C0C0C0;
+    font-weight: 400;
+    margin: 20px 100px 30px;
+    letter-spacing: 1px;
+}
+
+
+.is-active .season-number{
+    font-weight: 1000;
+    color: darkred;
+}
+.is-active {
+    transform: scale(1.02);
 }
