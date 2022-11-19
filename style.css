@@ -191,11 +191,22 @@ tr p {
 th p {
     font-size: 35px;
 }
+
 tbody tr:nth-child(2n+1) {
     background-color:  #B5B8B1;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #333333;
+    margin: 70px 150px 0;
+    font-size: 25px;
 }
 tbody tr:nth-child(2n+2){
     background-color: #333333;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #CCCCCC;
+    margin: 70px 150px 0;
+    font-size: 25px;
 }
 
 .season-text {
