@@ -1,0 +1,80 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&display=swap');
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    color: #4b5254;
+    background-color: #C0C0C0;
+    margin: 0 0 40px;
+    letter-spacing: 13px;
+}
+
+body{
+    background-color: #333333;
+}
+
+ol {
+    font-family: 'Raleway', sans-serif;
+    color:  #C0C0C0;
+    text-transform: uppercase;
+}
+
+.suggest-form {
+    display: flex;
+    justify-content: center;
+}
+.suggest-form-input {
+    font-size: 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 6px 14px;
+    color: #C0C0C0;
+    margin: 5px
+}
+.suggest-form-submit-button {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 15px;
+    color: #333333;
+    background: #C0C0C0;
+    cursor: pointer;
+    transition: ease 0.2s;
+    margin: 5px
+}
+
+.suggest-ol-item {
+    display: flex;
+    justify-content: center;
+}
+
+.suggest-ol {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggest-ol-item__deleteBtn {
+    cursor: pointer;
+    border: none;
+    background: #4b5254;
+    color: #ffff;
+    margin-left: 10px;
+    margin-top: 1px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 0 5px;
+    transition: ease 0.2s;
+    margin-bottom: 10px;
+}
+
+.suggest-ol-item__deleteBtn:hover {
+    background: #ffff;
+    color: crimson;
+    transition: ease 0.2s;
+}
